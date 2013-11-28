@@ -18,6 +18,7 @@ Ext.Loader.setConfig({
 
 });
 alert('º”‘ÿ«∞');
+alert("Ext=="+Ext);
 Ext.application({
     models: [
         'LoginLocalModel',
