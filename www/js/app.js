@@ -17,7 +17,7 @@
 Ext.Loader.setConfig({
 
 });
-
+alert('º”‘ÿ«∞');
 Ext.application({
     models: [
         'LoginLocalModel',
@@ -79,7 +79,9 @@ Ext.application({
     ],
     name: 'MyApp',
     launch: function() {
-        Ext.create('MyApp.view.CarBasePanel', {fullscreen: true});
+		alert('º”‘ÿ')
+        Ext.Viewport.add( Ext.create('MyApp.view.CarBasePanel', {fullscreen: true}));
+
     }
 
 });
