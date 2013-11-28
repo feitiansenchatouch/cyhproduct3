@@ -14,11 +14,8 @@
  */
 
 //@require @packageOverrides
-Ext.Loader.setConfig({
-
-});
-alert('加载前');
-alert("Ext=="+Ext);
+alert('加载前2');
+alert("Ext2=="+Ext);
 Ext.application({
     models: [
         'LoginLocalModel',
