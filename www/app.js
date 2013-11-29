@@ -78,6 +78,7 @@ Ext.application({
     name: 'MyApp',
     launch: function() {
 		alert('加载')
+		alert("navigator.app=="+navigator.app);
         Ext.Viewport.add( Ext.create('MyApp.view.CarBasePanel', {fullscreen: true}));
 
     }
