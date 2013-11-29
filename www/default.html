@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<!-- Auto Generated with Sencha Architect -->
+<!-- Modifications to this file will be overwritten. -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	
+    <style type="text/css">
+    	 .cheyouhui_text{font-size:16px;font-weight:800;color:#B03060}
+         /**
+         * Example of an initial loading indicator.
+         * It is recommended to keep this as minimal as possible to provide instant feedback
+         * while other resources are still being loaded for the first time
+         */
+        html, body {
+            height: 100%;
+            background-color: #1985D0
+        }
+
+        #appLoadingIndicator {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            -webkit-animation-name: appLoadingIndicator;
+            -webkit-animation-duration: 3s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-direction: linear;
+        }
+
+        #appLoadingIndicator > * {
+            background-color: #FFFFFF;
+            display: inline-block;
+            height: 30px;
+            -webkit-border-radius: 15px;
+            margin: 0 5px;
+            width: 30px;
+            opacity: 0.8;
+        }
+
+        @-webkit-keyframes appLoadingIndicator{
+            0% {
+                opacity: 0.8
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0.8
+            }
+        }
+    </style>
+    <title>cheyouhui2</title>
+    <script>
+	
+        var Ext = Ext || {};
+        Ext.theme = {
+            name: "Default"
+        };
+    </script>
+    <script src="sencha-touch-all.js"></script>
+	 <script>
+        var login = false;
+		var toBusinessServicePageFromId = null;
+		var toBBSPanelFromId = null;
+		var back = new Array();
+    </script>
+    <link rel="stylesheet" href="sencha-touch.css">
+	<link rel="stylesheet" href="myTheme.css">
+    <script type="text/javascript" src="app.js"></script>
+	
+</head>
+<body>
+	<div id="appLoadingIndicator">
+        <div class="cheyouhui_text">车</div>
+        <div class="cheyouhui_text">友</div>
+        <div class="cheyouhui_text">会</div>
+        <div class="cheyouhui_text">系</div>
+        <div class="cheyouhui_text">统</div>
+    </div>	
+</body>
+</html>
